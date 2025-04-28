@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "cat.itb.M6NF3EA3": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
