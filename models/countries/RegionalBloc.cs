@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using MongoDB.Bson.Serialization.Attributes;
+using Newtonsoft.Json;
 
 namespace cat.itb.M6NF3EA3.models.countries
 {
@@ -6,15 +7,19 @@ namespace cat.itb.M6NF3EA3.models.countries
     public class RegionalBloc
     {
         [JsonProperty("acronym")]
+        [BsonElement("acronym")]
         public string Acronym { get; set; }
 
         [JsonProperty("name")]
+        [BsonElement("name")]
         public string Name { get; set; }
 
         [JsonProperty("otherAcronyms")]
-        public string[] OtherAcronyms { get; set; }
+        [BsonElement("otherAcronyms")]
+        public List<string> OtherAcronyms { get; set; }
 
         [JsonProperty("otherNames")]
-        public string[] OtherNames { get; set; }
+        [BsonElement("otherNames")]
+        public List<string> OtherNames { get; set; }
     }
 }

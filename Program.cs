@@ -53,7 +53,30 @@ namespace cat.itb.M6NF3EA3
 
         private static void Exercici2()
         {
-
+            Exercicis2.A();
+            MyFunctions.PrintAndContinue();
+            Exercicis2.B();
+            MyFunctions.PrintAndContinue();
+            Exercicis2.C();
+            MyFunctions.PrintAndContinue();
+            Exercicis2.D();
+            MyFunctions.PrintAndContinue();
+            Exercicis2.E();
+            MyFunctions.PrintAndContinue();
+            Exercicis2.F();
+            MyFunctions.PrintAndContinue();
+            Exercicis2.G();
+            MyFunctions.PrintAndContinue();
+            Exercicis2.H();
+            MyFunctions.PrintAndContinue();
+            Exercicis2.I();
+            MyFunctions.PrintAndContinue();
+            Exercicis2.J();
+            MyFunctions.PrintAndContinue();
+            Exercicis2.K();
+            MyFunctions.PrintAndContinue();
+            Exercicis2.L();
+            MyFunctions.PrintAndContinue();
         }
    
     }
